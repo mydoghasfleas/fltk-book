@@ -9,7 +9,7 @@ Out of the box, fltk-rs offers:
 ### Flex
 The Flex widget allows flexbox layouts. It's in group module and implements the GroupExt trait. There are 2 forms of Flex widgets, which can be specified using the set_type or with_type methods. These are the column and row:
 ```rust
-use fltk::{prelude::*, *};
+use fltk::{prelude::*, *, group::Flex};
 
 fn main() {
     let a = app::App::default().with_scheme(app::Scheme::Gtk);
